@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TablaNumComponent } from './components/tabla-num/tabla-num.component';
+import { TablaNumTermComponent } from './components/tabla-num-term/tabla-num-term.component';
 
 const routes: Routes = [
   {

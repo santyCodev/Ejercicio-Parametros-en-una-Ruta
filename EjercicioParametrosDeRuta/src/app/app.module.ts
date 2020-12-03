@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TablaNumComponent } from './components/tabla-num/tabla-num.component';
+import { TablaNumTermComponent } from './components/tabla-num-term/tabla-num-term.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TablaNumComponent
+    TablaNumComponent,
+    TablaNumTermComponent
   ],
   imports: [
     BrowserModule,
